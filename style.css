@@ -1,0 +1,39 @@
+
+body{
+    background-color: rgb(116, 122, 177);
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+p{
+    color: rgb(196, 196, 196);
+}
+ol {
+    color: #7c7c7c;
+}
+ul{
+    color: #7c7c7c;
+    font-size: 24px;
+}
+
+button{
+    color: black;
+    background-color: rgb(255, 116, 116);
+    border: groove;
+    border-radius: 18px;
+    border-color: rgb(255, 0, 0);
+    cursor:pointer
+}
+button:hover{
+    color: black;
+    background-color: rgb(216, 0, 0);
+    opacity: 0.8;
+    transition: 0.1s;
+}
+
+button:active{
+    color: white;
+    background-color: rgb(105, 0, 0);
+    opacity: 0.8;
+    transition: 0.1s;
+}
